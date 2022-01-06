@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+:root{
+    --font1: Righteous, Geneva, Tahoma, sans-serif;
+    --font2: Sarala, Arial;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{  
+    font-family: var(--font2);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    color: #FFF2E7
+}
+header div#logo{
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+header div.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+
+header hr{
+    margin-top: 10px;
+}
+header nav a{
+    
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+    color: #FFF2E7;
+}
+header nav{
+    margin-right: 000px;
+    margin-top: 10px;
+    text-align: right;
+}
+a:visited{
+    color: #FFF2E7;
+}
+main div#tudojunto{
+    margin-top: 80px;
+    margin-left: 368px;
+}
+main h1{
+    font-family: var(--font1);
+    font-size: 2.7em;
+}
+main div#centro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+main input{
+    margin-top: 10px;
+    background-color: #FFF2E7;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 200px;
+    font-family: var(--font2);
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+main input:hover{
+    background-color: #fcdfc7;
+    transition: 0.5s;
+}
+main div#robo{
+    text-align: right;
+    margin-right: 193px;
+    margin-bottom: 30px;
+}
+main hr {
+    
+    width: 180px;
+    margin: auto;
+}
+main div.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 18px;
+}
+main p#tittext{
+    font-family: var(--font1);
+    font-size: 1.05em;
+    border-top: solid 0.4px #FFF2E7;
+    padding-top: 30px;
+}
+main p.texto{
+    text-align: center;
+    
+}
+footer{
+margin-top: 30px;
+text-align: center;
+}
+footer p {
+    margin: 36px;
+    font-size: 1.5em;
+    
+}
